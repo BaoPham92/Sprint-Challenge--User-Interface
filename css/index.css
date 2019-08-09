@@ -8,10 +8,15 @@
 .top-nav {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.top-nav div {
+  margin-right: 4rem;
 }
 
 .top-nav ul > li > a {
@@ -28,7 +33,9 @@
 }
 
 .top-nav ul > li {
+  padding: 0 1.5rem 0 0;
   margin-top: 1rem;
+  font-size: 1.1rem;
 }
 
 /* Top Content Styles */
@@ -44,6 +51,10 @@
   width: 48%;
   padding: 0 1%;
   padding-bottom: 20px;
+}
+
+.top-img {
+  margin: 2rem auto;
 }
 
 /* Middle Content Styles */
