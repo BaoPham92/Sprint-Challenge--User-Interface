@@ -175,3 +175,32 @@ footer nav a {
     padding-bottom: 2rem;
     border-bottom: 1px dashed black;
 }
+
+/* About Content Styles */
+.about__content-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed black;
+}
+
+.about__content-box {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.about__content-box>button {
+    width: 7rem;
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid black;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
