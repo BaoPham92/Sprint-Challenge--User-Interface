@@ -1,3 +1,7 @@
+/* 
+    Home Page
+*/
+
 /* Main Container */
 .container {
     width: 800px;
@@ -111,7 +115,7 @@
     background-color: indigo;
 }
 
-.middle-content ..boxes box:nth-child(10) {
+.middle-content .boxes .box:nth-child(10) {
     background-color: dodgerblue;
 }
 
@@ -159,4 +163,15 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* 
+    About Page
+*/
+
+/* Header Styles */
+.about-header {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed black;
 }
