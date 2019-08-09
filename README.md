@@ -34,15 +34,48 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+```
+In HTML, semantic represents providing meaning to your HTML content.
+
+Providing meaning to your HTML content assist in additional benefits.
+
+- You could gain more SEO traction, and or assist search algorithms.
+
+- You will be able to provide more fluid, accessible content for everyone.
+
+- A proper HTML structure is good communication with other developer joint projects.
+```
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+```
+    <!-- display: block; -->
+    - The width of display "block" generally extends and the full screen width.
+
+    <!-- display: inline-block; -->
+    - The width of display "inline-block" has width span of 
+    the content in the whitespace itself.
+```
+
 3. What are the 4 areas of the box model?
+```
+    Content > Padding > Border > Margin
+```
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+```
+    Y-Axis / Vertical
+```
 
 5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+```
+    Git is a form of version control, a tool that greatly assist developers 
+    in managing code, remote access to code / collaborations, and proper safety 
+    for projects.
+```
 
 ## Project Set Up
 
