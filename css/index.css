@@ -176,8 +176,8 @@ footer nav a {
     border-bottom: 1px dashed black;
 }
 
-/* About Content Styles */
-.about__content-container {
+/* About Top Content Styles */
+.about__top-content-container {
     display: flex;
     flex-flow: row wrap;
 
@@ -203,4 +203,10 @@ footer nav a {
     border: 0.1rem solid black;
     border-radius: 8px;
     margin-top: 1rem;
+}
+
+/* About Bottom Content */
+.about__bottom-content {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
 }
